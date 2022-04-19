@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.github.demidko"
-version = "0.0.1-SNAPSHOT"
+version = "boot"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {

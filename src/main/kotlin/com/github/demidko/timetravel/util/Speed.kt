@@ -8,6 +8,7 @@ import kotlin.time.toDuration
 data class Speed(private val distance: Distance, private val per: DurationUnit) {
 
   fun calculateDistance(duration: Duration): Distance {
+    val count = duration.toDouble(per)
     TODO()
   }
 
