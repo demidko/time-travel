@@ -22,6 +22,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+  testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.25")
 }
 
 tasks.withType<KotlinCompile> {
